@@ -10,7 +10,7 @@ class IssueComment {
     static belongsTo = [sender: User]
 
     static constraints = {
-        action nullable: true
-        sender nullable: true
+        action nullable: false
+        sender nullable: false
     }
 }
